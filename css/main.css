@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap");
+
 :root {
-    --dark: #2222222;
+    --dark: #222222;
     --white: #ffffff;
     --green: #47cfac;
 }
@@ -12,13 +14,13 @@ body {
     right: 0;
     bottom: 0;
     top: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto mono", monospace;
 }
 
 a {
     text-decoration: none;
     display: inline;
-    color: #222222;
+    color: var(--dark);
 }
 
 header {
@@ -32,7 +34,7 @@ header .header-icons-container {
     width: 100%;
     height: 50px;
     display: grid;
-    background-color: #47cfac;
+    background-color: var(--green);
 }
 
 header .header-icons-container .icons {
@@ -45,7 +47,7 @@ header .header-icons-container .icons {
 }
 
 .header-icons-container .icons i {
-    color: #ffffff;
+    color: var(--white);
 }
 
 nav {
@@ -55,7 +57,7 @@ nav {
 }
 
 nav .nav-logo-container {
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 nav .nav-logo-container img {
@@ -71,8 +73,8 @@ nav .profile-link {
 }
 
 nav .profile-link a {
-    border-bottom: 1px solid #222222;
-    color: #222222;
+    border-bottom: 1px solid var(--dark);
+    color: var(--dark);
     font-weight: bold;
 }
 
@@ -89,8 +91,9 @@ nav .profile-link a {
 }
 
 .home-main .main-title {
-    color: #ffffff;
-    font-family: "Courier New", Courier, monospace;
+    color: var(--white);
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
     width: 600px;
     text-align: center;
     letter-spacing: 5px;
@@ -98,10 +101,10 @@ nav .profile-link a {
 }
 
 .home-main .main-button {
-    border: 1px solid white;
-    background-color: #47cfac;
-    width: 120px;
-    height: 40px;
+    border: 1px solid var(--white);
+    background-color: var(--green);
+    width: 130px;
+    height: 45px;
     font-weight: bold;
     font-size: 14pt;
     cursor: pointer;
