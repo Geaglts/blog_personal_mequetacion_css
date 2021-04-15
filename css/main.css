@@ -76,7 +76,7 @@ nav .profile-link a {
     font-weight: bold;
 }
 
-main {
+.home-main {
     height: calc(100vh - 140px);
     width: 100%;
     background-image: url("../assets/img/Cover.png");
@@ -88,7 +88,7 @@ main {
     place-items: center;
 }
 
-main .main-title {
+.home-main .main-title {
     color: #ffffff;
     font-family: "Courier New", Courier, monospace;
     width: 600px;
@@ -97,7 +97,7 @@ main .main-title {
     font-size: 26pt;
 }
 
-main .main-button {
+.home-main .main-button {
     border: 1px solid white;
     background-color: #47cfac;
     width: 120px;
