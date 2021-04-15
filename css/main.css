@@ -1,0 +1,60 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: grid;
+    height: 125px;
+    grid-template-rows: 45px 80px;
+}
+
+header .social_network {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #47cfac;
+}
+
+header .social_network .social_network--container {
+    margin-right: 20px;
+}
+
+.social_network .social_network--container a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header .bottom_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.bottom_header .bottom_header--about-me a {
+    color: #222222;
+    text-decoration: none;
+    border-bottom: 2px solid #222222;
+    font-weight: bold;
+    font-size: 13pt;
+    cursor: pointer;
+}
+
+main {
+    background-image: url("../assets/img/Cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 120px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
